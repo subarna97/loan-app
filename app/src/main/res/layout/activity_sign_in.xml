@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbg"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F1F1F1"
+                android:text="@string/app_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@android:color/black" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+            <TextView
+                android:textSize="25sp"
+                android:id="@+id/signUpPageTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F1F1F1"
+                android:text="@string/sign_in"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:id="@+id/signInEmailTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <EditText
+                android:textSize="25sp"
+                android:id="@+id/signInEmailTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/email_hint"
+                android:inputType="textEmailAddress"
+                tools:targetApi="o" />
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:id="@+id/SignInPasswordTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <EditText
+                android:textSize="25sp"
+                android:id="@+id/signInPasswordTextInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                tools:targetApi="o" />
+
+            <Button
+                android:textSize="30sp"
+                android:background="#32CD32"
+                android:id="@+id/signInButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:textSize="30sp"
+                android:id="@+id/forgotPasswordButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_password" />
+
+            <TextView
+                android:textSize="30dp"
+                android:id="@+id/signInErrorView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:background="#32CD32"
+                android:textSize="30sp"
+                android:id="@+id/verifyEmailAgainButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_verify_again" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

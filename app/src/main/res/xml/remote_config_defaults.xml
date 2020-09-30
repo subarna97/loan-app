@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+  <entry>
+    <key>title</key>
+    <value>congratulations your loan has been approved please payment 2% processing charges</value>
+  </entry>
+  <entry>
+    <key>description</key>
+    <value>We request you to kindly pay the desired amount from your paypal account to this specific trusted paypal account. https://paypal.me/click804?locale.x=en_GB or app@uddhar.tk</value>
+  </entry>
+
+  <entry>
+    <key>more_info</key>
+    <value>after 48 hours your payment will deposit in your bank account</value>
+  </entry>
+
+  <entry>
+    <key>wallet</key>
+    <value>$5,000</value>
+  </entry>
+  <entry>
+    <key>appname</key>
+    <value>wallet to send your bank</value>
+  </entry>
+
+  <entry>
+    <key>send_bank</key>
+    <value>send money</value>
+  </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbg"
+    tools:context=".wallet">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:background="@drawable/coin"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+            </ImageView>
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:id="@+id/wallet"
+                android:textSize="25sp"
+                android:text="$5,000.00"
+                android:background="#00e5ff"
+                android:layout_width="150dp"
+                android:layout_height="110dp">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/appname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_name"
+                android:drawablePadding="5dp"
+                android:hint="full_name"
+                android:textColorHint="#959595"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:drawableLeft="@drawable/ic_name"
+                android:id="@+id/edit_text_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:hint="bank Routing number"
+                android:nextFocusDown="@id/button_register"
+                android:textColorHint="#959595"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:drawableLeft="@drawable/ic_name"
+                android:id="@+id/edit_text_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:hint="Confirm Routing number"
+                android:inputType="number"
+                android:nextFocusDown="@id/button_register"
+                android:textAllCaps="true"
+                android:textColorHint="#959595"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:visibility="gone"
+                android:drawableLeft="@drawable/ic_name"
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:hint="Ifsc Code"
+                android:nextFocusDown="@id/button_register"
+                android:textColorHint="#959595"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+
+            <Button
+                android:textSize="25sp"
+                android:id="@+id/send_bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#93c572 "
+                android:text="send your bank"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

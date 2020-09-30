@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload_PanCard">
+
+    <ImageView
+        android:background="@drawable/uplod"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+    <EditText
+        android:hint="Enter driving licence number"
+        android:id="@+id/pan_ac"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnbrowse"
+        android:layout_width="214dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="370dp"
+        android:text="Browse" />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:layout_width="194dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="370dp"
+        android:text="Upload" />
+
+    <com.google.android.gms.ads.AdView
+        android:layout_gravity="center"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2590445396872568/7861144771">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

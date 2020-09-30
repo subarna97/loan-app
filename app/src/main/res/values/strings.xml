@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Cash Borrow</string>
+
+    <string name="full_name">full name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="phone">phone</string>
+    <string name="register">Register</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="check">enter a valid phone number</string>
+    <string name="check2">phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+
+
+    <string name="welcome">Check your application status</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="TandC">I agree to the terms and condition of the AppCompany</string>
+    <string name="error_view">Error View</string>
+    <string name="password2">Password</string>
+    <string name="email_hint">user@domain.com</string>
+    <string name="email2">Email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_verify_again">Send Verify Email Again</string>
+    <string name="enterEmailId">Enter the registered Email ID</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="aboutus">Our application is worldwide trusted.
+And we have trusted customer from all over the world. Our application is 100% genuine with best supports.
+Feel free to contact us via mail- app@uddhar.tk
+🙂</string>
+
+
+    <string name="user_domain_com">user@domain.com</string>
+</resources>

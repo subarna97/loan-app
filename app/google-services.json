@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "702610716030",
+    "firebase_url": "https://cash-borrow.firebaseio.com",
+    "project_id": "cash-borrow",
+    "storage_bucket": "cash-borrow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702610716030:android:9ad62c4028cba7f117af2f",
+        "android_client_info": {
+          "package_name": "us.com.cash.borrow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702610716030-79u0o4koo67riurl9nmbam85elct83p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC13FCdAfTQ5FKNhochSAnnxPmnX3UUGtM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702610716030-79u0o4koo67riurl9nmbam85elct83p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
